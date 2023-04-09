@@ -13,7 +13,7 @@ int main()
         continue;
     else
     {
-        printf("the word is not a palindrome");
+        printf("%s is not a palindrome",input);
         break;
     }
    }
