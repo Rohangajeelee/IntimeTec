@@ -8,12 +8,12 @@ int main()
     int counter = 0;
     char character;
     int length;
-    length = strlen(inputs);
 
-    for(int i = 0; i < length - 1; i++) 
+
+    for(int i = 0; i < strlen(inputs) - 1; i++) 
     {
         counter = 0; 
-        for(int j = i + 1; j < length; j++) 
+        for(int j = i + 1; j < strlen(inputs); j++) 
         {
             if(inputs[i] == inputs[j]) 
             {
